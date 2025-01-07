@@ -1,0 +1,8 @@
+[Unit]
+Description=Networkd Notify
+
+[Service]
+ExecStart=/home/rein/projects/networkd-notify/networkd-notify.rb
+
+[Install]
+WantedBy=default.target

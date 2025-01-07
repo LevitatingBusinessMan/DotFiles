@@ -1,5 +1,9 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export DOT_FILES:/home/rein/\x2ebash_profile\x3a/home/rein/\x2ebashrc\x3a/home/rein/\x2ebash_aliases\x3a/home/rein/\x2exinitrc\x3a/home/rein/\x2econfig/i3\x3a/home/rein/\x2econfig/picom\x2econf\x3a/home/rein/\x2econfig/polybar\x3a/home/rein/\x2econfig/rofi\x3a/home/rein/\x2elocal/share/konsole\x3a/home/rein/\x2econfig/micro\x3a/home/rein/\x2econfig/dunst\x3a/home/rein/\x2econfig/replay\x2dsorcery\x2econf\x3a/home/rein/config_tablet\x2esh\x3a/home/rein/\x2econfig/dunst/dunstrc\x3a/home/rein/\x2econfig/git\x2dbro\x3a/home/rein/dunst_volume\x2esh\x3a/home/rein/\x2econfig/systemd/user\x3a/home/rein/\x2escreenlayout\x3a/home/rein/\x2econfig/mpv\x3a/home/rein/\x2econfig/alacritty\x2etoml\x3a/home/rein/scripts\x3a/home/rein/\x2ecustomizepkg\x3a/home/rein/\x2econfig/fish
+SETUVAR --export EDITOR:nano
+SETUVAR --export GEM_HOME:/home/rein/\x2egem/ruby/3\x2e0\x2e0
+SETUVAR PAGER:less
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:BD93F9
 SETUVAR fish_color_cancel:\x2d\x2dreverse
@@ -26,6 +30,7 @@ SETUVAR fish_color_selection:white\x1e\x2d\x2dbold\x1e\x2d\x2dbackground\x3dbrbl
 SETUVAR fish_color_status:red
 SETUVAR fish_color_user:brgreen
 SETUVAR fish_color_valid_path:\x2d\x2dunderline
+SETUVAR fish_features:qmark\x2dnoglob
 SETUVAR fish_key_bindings:fish_default_key_bindings
 SETUVAR fish_pager_color_background:\x1d
 SETUVAR fish_pager_color_completion:normal
@@ -40,3 +45,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
+SETUVAR fish_user_paths:/home/rein/\x2elocal/bin\x1e/home/rein/scripts\x1e/home/rein/\x2ecargo/bin\x1e/home/rein/bin\x1e/home/rein/\x2econfig/emacs/bin\x1e/home/rein/\x2egem/ruby/3\x2e0\x2e0/bin

@@ -21,6 +21,7 @@
     ],
     "pluginrepos": [],
     "statusformatl": "$(filename) $(modified)($(line),$(col)) | ft:$(opt:filetype) | $(opt:fileformat) | $(opt:encoding)",
+    "tabstospaces": true,
     "termtitle": false,
     "trimdiff": false
 }

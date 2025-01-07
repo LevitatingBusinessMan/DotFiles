@@ -39,7 +39,8 @@ xset -dpms
 xset s noblank
 
 #My default setup (hori verti)
-~/.screenlayout/code.sh
+#~/.screenlayout/code.sh
+#~/.screenlayout/single.sh
 
 #start udiskie
 #should be handled by systemd now

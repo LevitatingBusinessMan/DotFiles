@@ -13,6 +13,8 @@ set $mod Mod4
 
 bindsym F4 exec --no-startup-id dunstify "$(~/scripts/next_sink.fish)" -h string:x-dunst-stack-tag:sink -t 1000
 
+for_window [title="QEMU*"] floating enable
+
 # give the focused window a prefix
 #bindsym $mod+y title_format "Important | %title"
 
@@ -41,8 +43,11 @@ for_window [title="notepad"] resize set 500 400
 
 bindsym $mod+n exec alacritty -t notepad -e=micro
 
+bindsym $mod+l exec --no-startup-id passmenu
+
 # feh as image viewer
 for_window [class="feh"] border normal
+for_window [class="feh"] floating enable
 
 # Moving workspaces between screens 
 bindsym $mod+p move workspace to output right
@@ -91,13 +96,13 @@ for_window [title="Friends List"] move position center
 bindsym Print exec --no-startup-id flameshot gui
 
 # Disable titles
-default_border pixel 0
+default_border pixel 4
 
 # Gaps
-gaps top 43
-gaps bottom 3
-gaps horizontal 12
-gaps inner 15
+gaps top 40
+gaps bottom 0
+gaps horizontal 0
+gaps inner 4
 
 # Rounded corners
 #border_radius 5
@@ -143,7 +148,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+# exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -174,10 +179,10 @@ bindsym $mod+Shift+q kill
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+semicolon focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left

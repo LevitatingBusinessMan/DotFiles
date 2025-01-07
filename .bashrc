@@ -51,8 +51,6 @@ export LESS="--RAW-CONTROL-CHARS"
 # Set up Node Version Manager
 source /usr/share/nvm/init-nvm.sh
 
-PATH="$PATH:/home/rein/.local/bin:/home/rein/.cargo/bin:/home/rein/.gem/ruby/3.0.0/bin"
-
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 source ~/wpscan_token.sh

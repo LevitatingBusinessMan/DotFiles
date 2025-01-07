@@ -1,0 +1,86 @@
+[window]
+#opacity = 0.75
+
+[bell]
+animation = "Ease"
+color = "#ff0000"
+duration = 0
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#7f8c8d"
+blue = "#2a92f3"
+cyan = "#16c6c0"
+green = "#14dc57"
+magenta = "#c397d8"
+red = "#c0392b"
+white = "#eaeaea"
+yellow = "#e7c547"
+
+[colors.dim]
+black = "#31363b"
+blue = "#1b668f"
+cyan = "#186c60"
+green = "#17a262"
+magenta = "#614a73"
+red = "#783228"
+white = "#63686d"
+yellow = "#b65619"
+
+[colors.normal]
+black = "#232627"
+blue = "#1d99f3"
+cyan = "#1abc9c"
+green = "#11d116"
+magenta = "#9b59b6"
+red = "#ed1515"
+white = "#fafafa"
+yellow = "#f6f035"
+
+[colors.primary]
+background = "#232627"
+bright_foreground = "#ffffff"
+dim_foreground = "#eff0f1"
+foreground = "#fcfcfc"
+
+[cursor]
+blink_interval = 500
+unfocused_hollow = false
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[font]
+size = 11.5
+
+[font.bold]
+family = "Monocraft"
+#family = "Hack"
+style = "Bold"
+
+[font.bold_italic]
+family = "Hack"
+style = "Bold Italic"
+
+[font.italic]
+family = "Hack"
+style = "Italic"
+
+[font.normal]
+family = "Monocraft"
+#family = "Hack"
+style = "Regular"
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "Return"
+mods = "Control"
+
+[window.padding]
+x = 10
+y = 10
+
+

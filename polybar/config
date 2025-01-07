@@ -27,11 +27,11 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/code]
-width = 100%:-48
+width = 100%:-8
 height = 35
-offset-x = 24
-offset-y = 10
-radius = 6.0
+offset-x = 4
+offset-y = 4
+radius = 0 #6.0
 override-redirect = true
 wm-restack = i3
 padding-right = 5
@@ -48,21 +48,21 @@ font-1 = Font Awesome 5 Free,Font Awesome 5 Free Solid:style=Solid:size=13;2
 font-2 = Font Awesome 5 Free,Font Awesome 5 Free Regular:style=Regular:size=13;2
 
 modules-right = i3
-modules-left = date restart_polybar
+modules-left = date restart_polybar tray
 
 padding-left = 2
 
 [bar/main]
-width = 100%:-48
+width = 100%:-8
 height = 35
 monitor=DisplayPort-1
 
 enable-ipc = true
 
 # 34 seems to be the outer gap in set i3-gaps
-offset-x = 24
-offset-y = 10
-radius = 6.0
+offset-x = 4
+offset-y = 4
+radius = 0 #6.0
 override-redirect = true
 wm-restack = i3
 padding-right = 5
@@ -139,7 +139,7 @@ exec = ~/.config/polybar/scripts/lights.sh
 type = custom/script
 label-active-font = 2
 exec = ~/.config/polybar/scripts/playerctl.sh
-interval = 1
+interval = 3
 click-left = playerctl play-pause
 click-right = playerctl next
 click-middle = playerctl previous
@@ -272,3 +272,7 @@ label-volume-underline = #00f
 
 label-muted = %{T2}%{T-} muted
 label-muted-foreground = #666
+
+[module/tray]
+type = internal/tray
+
